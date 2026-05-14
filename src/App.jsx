@@ -1,13 +1,13 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Layout from './pages/Layout'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import ProductsLayout from './pages/ProductsLayout'
-import ProductsList from './pages/ProductsList'
-import ProductDetail from './pages/ProductDetail'
-import NotFound from './pages/NotFound'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./pages/Layout";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import ProductsLayout from "./pages/ProductsLayout";
+import ProductsList from "./pages/ProductsList";
+import ProductDetail from "./pages/ProductDetail";
+import NotFound from "./pages/NotFound";
+import "./App.css";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
